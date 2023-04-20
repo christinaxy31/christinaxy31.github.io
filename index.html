@@ -13,9 +13,21 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <style>
-    .img-circle {
-      border-radius: 50%;
-    }
+  .img-container {
+  width: 200px; /* Adjust the size according to your preference */
+  height: 200px; /* Make sure the width and height are equal */
+  overflow: hidden;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+
+  .img-circle {
+  object-fit: cover;
+  max-width: 100%;
+  max-height: 100%;
+  }
   </style>
 
   <title>Shih-Lun Huang</title>
