@@ -45,17 +45,22 @@
               <br>
               <h2 style="color:#12d640">Image Generator</h2>
               <ul>
-                <li><strong>Tech Stack</strong>: Python, Web Scraping, Natural Language Processing, Finance Model</li>
-                <li><strong>Github URL</strong>: <a href="https://github.com/allenhuang7008/FRM2021-Group5/blob/main/Hedging%20Climate%20Change%20News.pdf" target="_blank">Project Link</a></li>
+                <li><strong>Tech Stack</strong>: Python, Data Visualization, Statistical Analysis, Feature Engineering, XGBoost</li>
+                <li><strong>Github URL</strong>: <a href="https://github.com/christinaxy31/DSGA1007Project" target="_blank">Project Link</a></li>
               </ul>
                 <p>
-                This is a replication project of the research paper by Engle, R. F. et al.
+                The goal of the Kaggle Competition is to predict student performance during game-based learning in real-time.
                 </p>
                 <p>
-                The research purpose of this paper is to construct a portfolio that can hedge the climate change risk. To achieve this goal, first, the authors extract innovations of climate news series through textual analysis of newspapers and construct a Climate Change News Index. Second, they use this index to construct a proxy for climate change, called CCt, and use E-Score to construct a proxy for climate risk exposure. Finally, using all the variables calculated in the previous steps to select stocks and calculate their weights to form the hedge portfolios. Various approaches to construct such hedge portfolios have been proposed in the literature. The two main ones are cross-sectional regressions like Fama-MacBeth and mimicking portfolio approach.             
+                We conducted Statistical Analysis(eg.Hypothesis Testing) to explore our data.
+                For the Feature Engineering part, we handled missing values and outliers at first, then we implemented different strategies to preprocess numerical data, categorical
+                data, binary data and text data. We also transformed, generated and selected the most important features to better capture the information of the original dataset.  
                 </p>
                 <p>
-                In the result, the research purpose is to check if the return of the hedge portfolios we construct becomes higher as the Climate Change News Index gets higher. If so, investors can use it to hedge the climate change risk.
+                We applied XGBoost models to tune hyperparameters through GridSearch in each group, and selected the best thresholds to improve our model's performance.   
+                </p>
+                <p>
+                In the result, our model has an overall F1 score of 0.693, increasing by 2.5% from the baseline model.
                 </p>
                 
             </div>
